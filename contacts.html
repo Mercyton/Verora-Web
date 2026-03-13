@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Get in touch with Verola Studios — Web design, development, and digital solutions for your business.">
+    <meta name="keywords" content="contact, inquiry, web design, web development, digital solutions">
+    <meta name="theme-color" content="#2563eb">
+    <title>Contact Us — Verola Studios</title>
+    <link rel="stylesheet" href="styles/index.css">
+    <script src="scripts/icons.js" defer></script>
+</head>
+
+<body>
+    <!-- Header Navigation -->
+    <header class="site-header">
+        <div class="header-container">
+            <div class="logo-section">
+                <a href="index.html" class="logo">
+                    <span class="logo-text">Verola Studios</span>
+                </a>
+            </div>
+            <button class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <nav class="main-nav" id="mainNav">
+                <ul class="nav-list">
+                    <li><a href="index.html" class="nav-link">Home</a></li>
+                    <li><a href="services.html" class="nav-link">Services</a></li>
+                    <li><a href="portfolio.html" class="nav-link">Portfolio</a></li>
+                    <li><a href="about.html" class="nav-link">About</a></li>
+                    <li><a href="contacts.html" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero-section" style="min-height: 50vh; background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%); color: white; display: flex; align-items: center; justify-content: center; text-align: center; padding: 4rem 2rem;">
+            <div>
+                <h1 class="hero-title" style="color: white; font-size: 3rem; margin-bottom: 1rem;">Get in Touch</h1>
+                <p class="hero-subtitle" style="color: rgba(255,255,255,0.95); font-size: 1.3rem;">Have a project in mind? Let's create something amazing together</p>
+            </div>
+        </section>
+
+        <!-- Contact Info Cards -->
+        <section style="padding: 4rem 2rem; background: white;">
+            <div class="container" style="max-width: 1200px; margin: 0 auto;">
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 2rem; margin-bottom: 4rem;">
+                    <div style="padding: 2rem; background: var(--bg-light); border-radius: 0.75rem; box-shadow: var(--shadow-md);">
+                        <h3 style="color: var(--primary-color); margin-bottom: 1rem;"><span data-icon="mail"></span> Email</h3>
+                        <p style="color: var(--text-light); margin-bottom: 1rem;">Reach out via email for detailed inquiries</p>
+                        <p><a href="mailto:info@verolastudios.com" style="color: var(--primary-color); font-weight: 600;">info@verolastudios.com</a></p>
+                        <p style="font-size: 0.9rem; color: var(--text-light); margin-top: 0.5rem;">Response within 24 hours</p>
+                    </div>
+                    <div style="padding: 2rem; background: var(--bg-light); border-radius: 0.75rem; box-shadow: var(--shadow-md);">
+                        <h3 style="color: var(--primary-color); margin-bottom: 1rem;"><span data-icon="phone"></span> Phone</h3>
+                        <p style="color: var(--text-light); margin-bottom: 1rem;">Call us for urgent matters during business hours</p>
+                        <p><a href="tel:+1234567890" style="color: var(--primary-color); font-weight: 600;">+1 (234) 567-8900</a></p>
+                        <p style="font-size: 0.9rem; color: var(--text-light); margin-top: 0.5rem;">Mon-Fri, 9 AM - 6 PM</p>
+                    </div>
+                    <div style="padding: 2rem; background: var(--bg-light); border-radius: 0.75rem; box-shadow: var(--shadow-md);">
+                        <h3 style="color: var(--primary-color); margin-bottom: 1rem;">📍 Office</h3>
+                        <p style="color: var(--text-light); margin-bottom: 1rem;">Visit us in person for meetings and consultations</p>
+                        <p style="font-weight: 600;">1234 Main Street</p>
+                        <p>New York, NY 10001</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Form Section -->
+        <section style="padding: 4rem 2rem; background: var(--bg-light);">
+            <div class="container" style="max-width: 900px; margin: 0 auto;">
+                <h2 style="text-align: center; color: var(--primary-color); margin-bottom: 3rem;">Send us a Message</h2>
+                
+                <form id="contactForm" style="background: white; padding: 2rem; border-radius: 0.75rem; box-shadow: var(--shadow-md);">
+                    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1.5rem; margin-bottom: 1.5rem;">
+                        <div style="display: flex; flex-direction: column;">
+                            <label style="color: var(--text-dark); font-weight: 600; margin-bottom: 0.5rem;">Full Name *</label>
+                            <input type="text" placeholder="John Anderson" required style="padding: 0.875rem; border: 1px solid var(--border-color); border-radius: 0.5rem; font-size: 1rem;">
+                        </div>
+                        <div style="display: flex; flex-direction: column;">
+                            <label style="color: var(--text-dark); font-weight: 600; margin-bottom: 0.5rem;">Company</label>
+                            <input type="text" placeholder="Your Company Name" style="padding: 0.875rem; border: 1px solid var(--border-color); border-radius: 0.5rem; font-size: 1rem;">
+                        </div>
+                    </div>
+
+                    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1.5rem; margin-bottom: 1.5rem;">
+                        <div style="display: flex; flex-direction: column;">
+                            <label style="color: var(--text-dark); font-weight: 600; margin-bottom: 0.5rem;">Email Address *</label>
+                            <input type="email" placeholder="john@example.com" required style="padding: 0.875rem; border: 1px solid var(--border-color); border-radius: 0.5rem; font-size: 1rem;">
+                        </div>
+                        <div style="display: flex; flex-direction: column;">
+                            <label style="color: var(--text-dark); font-weight: 600; margin-bottom: 0.5rem;">Phone</label>
+                            <input type="tel" placeholder="+1 (234) 567-8900" style="padding: 0.875rem; border: 1px solid var(--border-color); border-radius: 0.5rem; font-size: 1rem;">
+                        </div>
+                    </div>
+
+                    <div style="display: flex; flex-direction: column; margin-bottom: 1.5rem;">
+                        <label style="color: var(--text-dark); font-weight: 600; margin-bottom: 0.5rem;">Service of Interest *</label>
+                        <select required style="padding: 0.875rem; border: 1px solid var(--border-color); border-radius: 0.5rem; font-size: 1rem;">
+                            <option value="">-- Select a Service --</option>
+                            <option value="Web Design">Web Design</option>
+                            <option value="Web Development">Web Development</option>
+                            <option value="Branding">Branding</option>
+                            <option value="Mobile Development">Mobile Development</option>
+                            <option value="UI/UX Design">UI/UX Design</option>
+                            <option value="Consulting">Consulting</option>
+                            <option value="Other">Other</option>
+                        </select>
+                    </div>
+
+                    <div style="display: flex; flex-direction: column; margin-bottom: 1.5rem;">
+                        <label style="color: var(--text-dark); font-weight: 600; margin-bottom: 0.5rem;">Message *</label>
+                        <textarea placeholder="Tell us about your project, goals, and timeline..." required rows="6" style="padding: 0.875rem; border: 1px solid var(--border-color); border-radius: 0.5rem; font-size: 1rem; font-family: inherit; resize: vertical;"></textarea>
+                    </div>
+
+                    <div style="margin-bottom: 1.5rem;">
+                        <label style="display: flex; align-items: center; cursor: pointer;">
+                            <input type="checkbox" required style="margin-right: 0.75rem; cursor: pointer;">
+                            <span style="color: var(--text-light);">I agree to your <a href="terms-and-conditions.html" style="color: var(--primary-color); text-decoration: underline;">terms and conditions</a> and <a href="privacy-policy.html" style="color: var(--primary-color); text-decoration: underline;">privacy policy</a></span>
+                        </label>
+                    </div>
+
+                    <button type="submit" style="background: var(--primary-color); color: white; border: none; padding: 1rem 2rem; border-radius: 0.5rem; font-weight: 600; font-size: 1.05rem; cursor: pointer; width: 100%;">Send Message</button>
+                </form>
+            </div>
+        </section>
+
+        <!-- Why Contact Us Section -->
+        <section style="padding: 4rem 2rem; background: white;">
+            <div class="container" style="max-width: 1200px; margin: 0 auto;">
+                <h2 style="text-align: center; color: var(--primary-color); margin-bottom: 3rem;">What to Expect</h2>
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 2rem;">
+                    <div style="text-align: center;">
+                        <div style="font-size: 3rem; margin-bottom: 1rem;" data-icon="zap"></div>
+                        <h3 style="color: var(--primary-color); margin-bottom: 0.5rem;">Fast Response</h3>
+                        <p style="color: var(--text-light);">We reply to all inquiries within 24 hours, often sooner</p>
+                    </div>
+                    <div style="text-align: center;">
+                        <div style="font-size: 3rem; margin-bottom: 1rem;" data-icon="lightbulb"></div>
+                        <h3 style="color: var(--primary-color); margin-bottom: 0.5rem;">Expert Advice</h3>
+                        <p style="color: var(--text-light);">Our team provides strategic insights for your project</p>
+                    </div>
+                    <div style="text-align: center;">
+                        <div style="font-size: 3rem; margin-bottom: 1rem;" data-icon="target"></div>
+                        <h3 style="color: var(--primary-color); margin-bottom: 0.5rem;">Tailored Solutions</h3>
+                        <p style="color: var(--text-light);">We customize our services to fit your exact needs</p>
+                    </div>
+                    <div style="text-align: center;">
+                        <div style="font-size: 3rem; margin-bottom: 1rem;" data-icon="users"></div>
+                        <h3 style="color: var(--primary-color); margin-bottom: 0.5rem;">Dedicated Support</h3>
+                        <p style="color: var(--text-light);">A single point of contact throughout your project</p>
+                    </div>
+                    <div style="text-align: center;">
+                        <div style="font-size: 3rem; margin-bottom: 1rem;" data-icon="check"></div>
+                        <h3 style="color: var(--primary-color); margin-bottom: 0.5rem;">Proven Results</h3>
+                        <p style="color: var(--text-light);">We deliver quality work backed by case studies</p>
+                    </div>
+                    <div style="text-align: center;">
+                        <div style="font-size: 3rem; margin-bottom: 1rem;" data-icon="dollarSign"></div>
+                        <h3 style="color: var(--primary-color); margin-bottom: 0.5rem;">Transparent Pricing</h3>
+                        <p style="color: var(--text-light);">No hidden costs — clear quotes upfront</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <div class="footer-section">
+                <h4>Verola Studios</h4>
+                <p>Creating exceptional digital experiences for forward-thinking brands.</p>
+            </div>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="about.html">About</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Support</h4>
+                <ul>
+                    <li><a href="customer-care.html">Customer Care</a></li>
+                    <li><a href="#">Help Center</a></li>
+                    <li><a href="#">FAQ</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Legal</h4>
+                <ul>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; <span id="year"></span> Verola Studios. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="scripts/main.js" defer></script>
+    <script>
+        // Form submission handler
+        document.getElementById('contactForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            const nameInput = this.querySelector('input[type="text"]');
+            const name = nameInput.value;
+            alert(`Thank you, ${name}! We've received your message and will get back to you soon.`);
+            this.reset();
+        });
+    </script>
+
+</body>
+
+</html>

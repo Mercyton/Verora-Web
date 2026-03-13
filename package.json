@@ -1,0 +1,15 @@
+{
+  "name": "verora-web",
+  "version": "1.0.0",
+  "description": "Verora Studios website",
+  "main": "index.html",
+  "scripts": {
+    "start": "npm run serve",
+    "serve": "npx http-server -p 3000",
+    "deploy": "vercel"
+  },  "dependencies": {
+    "lucide": "latest"
+  },  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
